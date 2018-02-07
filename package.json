@@ -11,6 +11,9 @@
   },
   "author": "James Batt",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "peerDependencies": {
     "inversify": "~4.0.0",
     "inversify-inject-decorators": "~3.0.0"
