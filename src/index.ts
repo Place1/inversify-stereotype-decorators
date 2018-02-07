@@ -1,0 +1,1 @@
+export { getStereoTypes } from './stereotypes';

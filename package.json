@@ -1,0 +1,24 @@
+{
+  "name": "inversify-stereotype-decorators",
+  "version": "0.0.1",
+  "description": "a tiny wrapper around inversify and inversify-inject-decorators for @service @store @autowire etc. stereotypes",
+  "main": "dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --pretty",
+    "watch": "tsc --watch --pretty",
+    "prepublish": "npm run build"
+  },
+  "author": "James Batt",
+  "license": "MIT",
+  "peerDependencies": {
+    "inversify": "~4.0.0",
+    "inversify-inject-decorators": "~3.0.0"
+  },
+  "devDependencies": {
+    "inversify": "^4.10.0",
+    "inversify-inject-decorators": "^3.1.0",
+    "reflect-metadata": "^0.1.12",
+    "typescript": "^2.7.1"
+  }
+}
