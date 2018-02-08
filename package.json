@@ -1,6 +1,6 @@
 {
   "name": "inversify-stereotype-decorators",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a tiny wrapper around inversify and inversify-inject-decorators for @service @store @autowire etc. stereotypes",
   "main": "dist/index.js",
   "typings": "./dist/index.d.ts",
