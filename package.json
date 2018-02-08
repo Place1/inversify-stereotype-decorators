@@ -11,6 +11,10 @@
   },
   "author": "James Batt",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/place1/inversify-stereotype-decorators"
+  },
   "files": [
     "dist"
   ],
