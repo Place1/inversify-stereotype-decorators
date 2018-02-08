@@ -15,10 +15,10 @@ Create an IoC container and the stereotype decorators
 
 import 'reflect-metadata';
 import { Container } from 'inversify';
-import { getStereoTypes } from 'inversify-stereotype-decorators';
+import { getStereotypes } from 'inversify-stereotype-decorators';
 
 export const container = new Container();
-export const { service, store, constant, autowire } = getStereoTypes(container);
+export const { service, store, constant, autowire } = getStereotypes(container);
 ```
 
 Use your new goodies!

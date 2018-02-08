@@ -3,7 +3,7 @@ import getDecorators from 'inversify-inject-decorators';
 
 export type Identifier<T> = string | symbol | interfaces.Newable<T> | interfaces.Abstract<T>;
 
-export function getStereoTypes(container: any) {
+export function getStereotypes(container: any) {
   return {
     store: getStore(container),
     service: getService(container),

@@ -1,1 +1,1 @@
-export { getStereoTypes } from './stereotypes';
+export { getStereotypes } from './stereotypes';
