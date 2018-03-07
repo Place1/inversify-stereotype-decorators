@@ -1,6 +1,6 @@
 {
   "name": "inversify-stereotype-decorators",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a tiny wrapper around inversify and inversify-inject-decorators for @service @store @autowire etc. stereotypes",
   "main": "dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -16,7 +16,8 @@
     "url": "https://github.com/place1/inversify-stereotype-decorators"
   },
   "files": [
-    "dist"
+    "dist/",
+    "src/"
   ],
   "peerDependencies": {
     "inversify": "~4.0.0",
